@@ -1,4 +1,19 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color:black;font-family:arial;color:white}
+h1{color:grey;font-family:verdana}
+mark {background-color:yellow;font-family:arial;color:black}
 
+.maindiv {
+    background-color:white;
+    color:black;
+    /* Width originally 300px, expanded for title to fit in 1 line */
+    width:480px;
+    padding:20px;
+    border-radius:25px;
+    /* Align the div to the center of the page, original code was "align:center" but didn't work */
+    margin-left: auto;
+    margin-right: auto
+}
 
+.subdiv {
+    margin-left:50px
+}
